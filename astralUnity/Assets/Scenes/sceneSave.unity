@@ -184,7 +184,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 8.293411
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -224,26 +224,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1109832938}
-  - component: {fileID: 1109832937}
   m_Layer: 0
-  m_Name: Deck
+  m_Name: manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1109832937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1109832936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f5a25aa23f532049bbe65d5a55a3ed0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1109832938
 Transform:
   m_ObjectHideFlags: 0

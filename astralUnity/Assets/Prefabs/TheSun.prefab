@@ -8,9 +8,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -303882756276238584, guid: 79bf2c520d7fdd9468580be5f0726899, type: 3}
+      propertyPath: id
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -303882756276238584, guid: 79bf2c520d7fdd9468580be5f0726899, type: 3}
+      propertyPath: faceUpSprite
+      value: 
+      objectReference: {fileID: -2087382470, guid: 825b13e86436ca7448fff77e1720fc32, type: 3}
     - target: {fileID: 5104672528968007029, guid: 79bf2c520d7fdd9468580be5f0726899, type: 3}
       propertyPath: m_Name
-      value: cardPrefab
+      value: TheSun
       objectReference: {fileID: 0}
     - target: {fileID: 9091981107002869451, guid: 79bf2c520d7fdd9468580be5f0726899, type: 3}
       propertyPath: m_LocalPosition.x

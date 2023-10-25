@@ -1,0 +1,34 @@
+{
+    "name": "card inputs",
+    "maps": [
+        {
+            "name": "card actions map",
+            "id": "26e8a969-fdd7-45cd-a0ea-b4cab2d5f220",
+            "actions": [
+                {
+                    "name": "returns card",
+                    "type": "Button",
+                    "id": "43eb36df-4d17-4a70-b413-470bdf2401f1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f11bfd32-e7f4-4f14-ae7a-0bc9f1c973b8",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "returns card",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

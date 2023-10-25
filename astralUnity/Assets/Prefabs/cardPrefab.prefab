@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5068470128573575568}
   - component: {fileID: 8633938286649603919}
   - component: {fileID: 8959673394782411664}
+  - component: {fileID: -303882756276238584}
   m_Layer: 0
   m_Name: cardPrefab
   m_TagString: Untagged
@@ -152,3 +153,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-303882756276238584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5104672528968007029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48738648689e50349be7dd1e95fce877, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faceUpSprite: {fileID: 0}
+  id: 0
+  actions: {fileID: -944628639613478452, guid: 49091378468b5f748bed9352c32d18fb, type: 3}
+  manager: {fileID: 0}

@@ -1,0 +1,143 @@
+*{
+    margin: auto;
+    font-family:url( "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" )
+}
+
+/* Styles pour votre site */
+body {
+        font-family: Roboto;
+        background-color: #f1f1f1;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    
+        background-color: linear-gradient(gold, rgb(51, 34, 12));
+        color: black; /* Couleur noire pour le texte */
+        font-family: 'Roboto', sans-serif;
+        font-weight: 3rem;
+
+}
+
+h1{
+    color: #584229;
+    text-align: center;
+    
+    margin-bottom: 7rem;
+}
+h2{
+    color: #584229;
+    text-align: center;
+    
+    margin-bottom: 3rem;
+}
+
+
+
+/* Styles pour la barre de navigation */
+.navbar {
+    background-color: #0a0a0a;
+    overflow: hidden;
+    top:0
+  }
+  .navbar-brand{
+
+  }
+
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: rgb(59, 35, 11);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Styles pour les cartes de tarot */
+  .tarot-card {
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tarot-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+   /* Styles pour le formulaire */
+   .form-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #8d6d3a;
+
+  }
+
+input{
+    color: #584229;
+    width: 50%;
+
+  }
+  
+  .form-container button {
+    width: 60%;
+     padding: 10px; 
+    background-color: #584229;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  .form-container button:hover {
+    background-color: #8d6d3a;
+  }
+
+  /* Partie jeu */
+
+  #jeu{
+    width : 800px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 5px;
+  }
+  #jeuu{
+    width : 600px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 5px;
+  }
+  .jeu{
+    width : 700px;
+    height: 400px;
+    background-color: rgb(209, 183, 33);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 50%;
+  }
+  #jeux{
+    width : 1000px;
+    height: 800px;
+    background-color: grey;
+  }

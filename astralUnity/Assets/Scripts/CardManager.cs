@@ -8,8 +8,8 @@
 //     public List<GameObject> deck = new();
 
 //     //not necessary yet
-//     // private List<int> indexesAlreadyInGame = new();
-//     // private List<int> indexesNotAllowedAnymore = new();
+//     private List<int> indexesAlreadyInGame = new();
+//     private List<int> indexesNotAllowedAnymore = new();
 
 
 //     void Start()

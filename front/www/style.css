@@ -1,0 +1,210 @@
+@font-face {
+  font-family: 'blackchancery'; /* Choose any name you want */
+  src: url('./Assets/font/blackchancery.ttf') format('truetype'); /* Adjust the path and format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto'; /* Choose any name you want */
+  src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+}
+ 
+@font-face {
+  font-family: 'roboto'; /* Choose any name you want */
+  src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+}
+ 
+*{
+    margin: auto!important;
+}
+ 
+/* Styles pour votre site */
+body {
+        background-color :rgb(17, 16, 16)!important;
+        margin: 0;
+        padding: 0;
+ /* Couleur noire pour le texte */
+      
+}
+ 
+h1{
+  font-family: 'blackchancery'!important;
+  text-align: center;
+  margin-bottom: 4rem;
+  padding-top: 20px;
+
+  }
+
+ 
+h2{
+    padding-top : 10px;
+    padding-bottom : 10px;
+    font-family: 'blackchancery'!important;
+    color: #584229;
+    text-align: center;
+    margin-bottom: 3rem;
+} 
+
+h3{
+  text-align: center;
+  padding-top : 20px;
+  font-family: 'blackchancery'!important;
+  color: #584229;
+  margin-bottom: 3rem;
+}
+.parag{
+  padding-top: 20px;
+  padding-bottom : 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 3rem;
+  margin: auto;
+  text-align: justify;
+}
+ 
+ 
+ 
+/* Styles pour la barre de navigation */
+.navbar {
+   
+  background-color: rgb(17, 16, 16);
+    overflow: hidden;
+    top:0
+  }
+  .logo{
+    border-radius: 5px;
+    width: 10vw;
+  }
+ 
+ 
+  .navbar a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    /* text-decoration: none; */
+    color: #d4b506;
+    font-size: larger;
+  
+  }
+  .navbar a :hover {
+    color: #5a3d07;
+
+  }
+ 
+
+
+ 
+   /* Styles pour le formulaire */
+   .form-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+ 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+ 
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #8d6d3a;
+ 
+  }
+ 
+input{
+    color: #584229;
+    width: 50%;
+ 
+  }
+ 
+  .form-container button {
+    width: 40%;
+     padding: 10px;
+    background-color: #584229;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 95px;
+    display: flex;
+    flex-direction: row;
+  }
+ 
+  .form-container button:hover {
+    background-color: #686664;
+  }
+ 
+  /* Partie jeu */
+ 
+  #jeu{
+    background-color: grey;
+    border-radius: 5px;
+  }
+  #inscription{
+    width : 500px;
+    height : 350px;
+    background-color: grey;
+    border-radius: 5px;
+    margin: auto;
+    margin-left: -30%;
+  }
+  #connexion{
+    width : 500px;
+    height : 350px;
+    background-color: grey;
+    border-radius: 5px;
+    margin: auto;
+    margin-left: -30%;
+  }
+  .jeu{
+    width : 800px;
+    height: 400px;
+    background-color: rgb(29, 23, 23);
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 10%;
+    padding: 10px;
+  }
+  #jeux{
+    background-color: grey;
+  }
+ 
+  .login {
+    position: relative;
+    margin: 100px auto;
+    width: 370px;
+    /* height: 315px; */
+   background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid rgba(255,255,255,0.2);
+      border-left: 1px solid rgba(255,255,255,0.2);
+      box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    border-radius: 3px;
+ 
+  }
+  .container {
+    float: none;
+  }
+  
+  .button1 {
+    margin-right: 10px;
+    list-style: 3em;
+  }
+   
+  .button1 {
+    margin-right: 10px;
+    list-style: 3em;
+  }
+
+.lostpass{
+  color :#d4b506;
+  padding : 28%;
+}
+
+.lostpass:hover{
+  color:aliceblue;
+}

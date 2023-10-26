@@ -23,7 +23,7 @@ try {
 // 3. Obtenir l'utilisateur de la BD (on cherche par login)
 
 // Créer la requête
-$sql = "SELECT id,nom,login,password FROM utilisateur WHERE login = :login";
+$sql = "SELECT nom,login,password FROM utilisateur WHERE login = :login";
 
 // Preparer la requête et la lancer
 $stmt = $cnx->prepare($sql);
@@ -41,7 +41,6 @@ if (password_verify($password, $passwordBD) == true){
     // stocker dans la session le login
     session_start();
     $_SESSION['login'] = $login;
-    $_SESSION['id'] = $resArray[0]['id'];
     $_SESSION['nom'] = $resArray[0]['nom'];
 
     // login ok, on va vers l'accueil

@@ -28,6 +28,8 @@ public class CardBehavior : MonoBehaviour
       set {
          _mouseIsOver = value;
          animator.SetBool("mouse is over", value);
+         if(value) transform.parent.Translate(-transform.forward); 
+         else transform.parent.Translate(transform.forward);
       }
    }
 
@@ -40,8 +42,8 @@ public class CardBehavior : MonoBehaviour
    }
 
    private void Start(){
-      faceDownSprite = GetComponent<SpriteRenderer>().sprite;
-      animator = GetComponent<Animator>();
+      faceDownSprite = GetComponentInChildren<SpriteRenderer>().sprite;
+      animator = GetComponentInChildren<Animator>();
 
    }
 
@@ -58,11 +60,11 @@ public class CardBehavior : MonoBehaviour
     }
 
    public void Switch(){
-      GetComponent<SpriteRenderer>().sprite = faceUpSprite;
+      GetComponentInChildren<SpriteRenderer>().sprite = faceUpSprite;
    }
 
    public void UnSwitch(){
-      GetComponent<SpriteRenderer>().sprite = faceDownSprite;
+      GetComponentInChildren<SpriteRenderer>().sprite = faceDownSprite;
    }
 
    private void OnMouseEnter(){

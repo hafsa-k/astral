@@ -16,15 +16,12 @@
 }
  
 *{
-    margin: auto;
+    margin: auto!important;
 }
  
 /* Styles pour votre site */
 body {
-        /*background-image: url(./Assets/images/cardd.jpg);*/
-        /* background-repeat: no-repeat;
-        background-size: cover; */
-        background-color: #f1f1f1;
+        background-color :rgb(17, 16, 16)!important;
         margin: 0;
         padding: 0;
  /* Couleur noire pour le texte */
@@ -34,10 +31,15 @@ body {
 h1{
   font-family: 'blackchancery'!important;
   text-align: center;
-  margin-bottom: 7rem;
+  margin-bottom: 4rem;
+  padding-top: 20px;
+
   }
+
  
 h2{
+    padding-top : 10px;
+    padding-bottom : 10px;
     font-family: 'blackchancery'!important;
     color: #584229;
     text-align: center;
@@ -45,15 +47,19 @@ h2{
 } 
 
 h3{
+  text-align: center;
+  padding-top : 20px;
   font-family: 'blackchancery'!important;
   color: #584229;
-  text-align: left;
   margin-bottom: 3rem;
 }
-p{
-  margin-top: 5rem;
+.parag{
+  padding-top: 20px;
+  padding-bottom : 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 3rem;
+  margin: auto;
+  text-align: justify;
 }
  
  
@@ -61,42 +67,33 @@ p{
 /* Styles pour la barre de navigation */
 .navbar {
    
+  background-color: rgb(17, 16, 16);
     overflow: hidden;
     top:0
   }
   .logo{
     border-radius: 5px;
+    width: 10vw;
   }
  
  
   .navbar a {
-    float: left;
+    float: right;
     display: block;
-    color: rgb(59, 35, 11);
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    /* text-decoration: none; */
+    color: #d4b506;
+    font-size: larger;
+  
+  }
+  .navbar a :hover {
+    color: #5a3d07;
+
   }
  
-  /* Styles pour les cartes de tarot */
-  .tarot-card {
-    width: 200px;
-    height: 300px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
- 
-  .tarot-card img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
-  }
+
+
  
    /* Styles pour le formulaire */
    .form-container {
@@ -132,27 +129,33 @@ input{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 80px;
+    margin-left: 95px;
     display: flex;
     flex-direction: row;
   }
  
   .form-container button:hover {
-    background-color: #8d6d3a;
+    background-color: #686664;
   }
  
   /* Partie jeu */
  
   #jeu{
-    width : 800px;
-    height: 400px;
     background-color: grey;
     border-radius: 5px;
   }
-  #jeuu{
-    width : 600px;
-    height: 400px;
-    background-color: rgb(56, 37, 9);
+  #inscription{
+    width : 500px;
+    height : 350px;
+    background-color: grey;
+    border-radius: 5px;
+    margin: auto;
+    margin-left: -30%;
+  }
+  #connexion{
+    width : 500px;
+    height : 350px;
+    background-color: grey;
     border-radius: 5px;
     margin: auto;
     margin-left: -30%;
@@ -160,15 +163,13 @@ input{
   .jeu{
     width : 800px;
     height: 400px;
-    background-color: rgb(75, 56, 22);
+    background-color: rgb(29, 23, 23);
     border-radius: 5px;
     margin-top: 50px;
     margin-left: 10%;
     padding: 10px;
   }
   #jeux{
-    width : 1000px;
-    height: 600px;
     background-color: grey;
   }
  
@@ -198,3 +199,11 @@ input{
     margin-right: 10px;
     list-style: 3em;
   }
+
+.lostpass{
+  color :#d4b506;
+}
+
+.lostpass:hover{
+  color:aliceblue;
+}

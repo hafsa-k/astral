@@ -20,5 +20,6 @@ public class RestartGame : MonoBehaviour
         Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.name);
         Debug.Log("Restart scene");
+        CardBehavior.hasBeenChosen = false;
     }
 }

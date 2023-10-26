@@ -8,6 +8,8 @@ using UnityEngine.InputSystem;
 public class CardBehavior : MonoBehaviour
 {
    public Sprite faceUpSprite;
+   public float speed = 5;
+   private Vector3 arrivalPoint;
 
    private Sprite faceDownSprite;
 
@@ -42,8 +44,9 @@ public class CardBehavior : MonoBehaviour
    }
 
    private void Start(){
-      faceDownSprite = GetComponentInChildren<SpriteRenderer>().sprite;
-      animator = GetComponentInChildren<Animator>();
+      faceDownSprite = GetComponent<SpriteRenderer>().sprite;
+      animator = GetComponent<Animator>();
+      arrivalPoint = new Vector3(-12f, 5f, 0f);
 
    }
 
@@ -60,12 +63,34 @@ public class CardBehavior : MonoBehaviour
     }
 
    public void Switch(){
-      GetComponentInChildren<SpriteRenderer>().sprite = faceUpSprite;
+      GetComponent<SpriteRenderer>().sprite = faceUpSprite;
+   }
+   public void Slide(){
+      StartCoroutine(SlideToArrivalPoint());
+   
    }
 
-   public void UnSwitch(){
-      GetComponentInChildren<SpriteRenderer>().sprite = faceDownSprite;
-   }
+   private IEnumerator SlideToArrivalPoint()
+    {
+      Debug.Log("is slide");
+        float duration = 5f; // La durée du mouvement
+        Vector3 initialPosition = transform.position;
+        float elapsedTime = 0;
+
+        while (Vector3.Distance(transform.position, arrivalPoint) > 0.01f)
+        {
+            transform.position = Vector3.Lerp(initialPosition, arrivalPoint, elapsedTime / duration);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        // Assurez-vous que la position d'arrivée soit exacte pour éviter de petits décalages.
+        transform.position = arrivalPoint;
+    }
+
+   // public void UnSwitch(){
+   //    GetComponent<SpriteRenderer>().sprite = faceDownSprite;
+   // }
 
    private void OnMouseEnter(){
       mouseIsOver = true;

@@ -23,7 +23,7 @@ public class CardManager : MonoBehaviour
     
     {
         float cardSpacing = 1.1f; // Espacement entre les cartes (ajustez selon vos besoins)
-         Vector3 parentPosition = transform.position - cardSpacing * (nCards-1)* 0.5f * Vector3.right;
+        Vector3 parentPosition = transform.position - cardSpacing * (nCards-1)* 0.5f * Vector3.right;
 
         for (int line = 0; line < nCards; line++)
         {

@@ -1,50 +1,56 @@
-@font-face
-{
-    font-family: 'blackchancery';
-    src: url('./Assets/font/BLKCHCRY.TTF');
+@font-face {
+  font-family: 'blackchancery'; /* Choose any name you want */
+  src: url('./Assets/font/blackchancery.ttf') format('truetype'); /* Adjust the path and format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto'; /* Choose any name you want */
+  src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
 }
 
 *{
     margin: auto;
-    font-family:url( "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" )
 }
 
 /* Styles pour votre site */
 body {
-        background-image: url(./Assets/images/cardd.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        /*background-image: url(./Assets/images/cardd.jpg);*/
+        /* background-repeat: no-repeat;
+        background-size: cover; */
         background-color: #f1f1f1;
-      
-        color: #333;
         margin: 0;
         padding: 0;
-        color: black; /* Couleur noire pour le texte */
-        font-family: 'Roboto', sans-serif;
-        font-weight: 3rem;
-
+ /* Couleur noire pour le texte */
+      
 }
 
-h1{
-    color: #584229;
-    text-align: center;
-    margin-bottom: 7rem;
-    font-family: 'blackchancery';
+h1,h2,h3{
+  font-family: 'blackchancery'!important;
+  text-align: center;
+  margin-bottom: 7rem;
   }
 
-h2{
+/* h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 3rem;
     color: #584229;
     text-align: center;
     margin-bottom: 3rem;
-}
+} */
 
 h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 3rem;
   color: #584229;
   text-align: center;
   margin-bottom: 3rem;
 }
 p{
   margin-top: 5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 3rem;
 }
 
 
@@ -180,12 +186,12 @@ input{
     float: none;
   }
   
-  .button 1 {
+  .button1 {
     margin-right: 10px;
     list-style: 3em;
   }
    
-  .button 1 {
+  .button1 {
     margin-right: 10px;
     list-style: 3em;
   }

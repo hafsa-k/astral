@@ -12,7 +12,7 @@ public class CardManager : MonoBehaviour
     private List<int> indexesAlreadyInGame = new();
     private List<int> indexesNotAllowedAnymore = new();
     public int nCards = 22;
-
+   
     void Start()
     {
         InstanciateCards();

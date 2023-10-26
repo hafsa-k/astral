@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,9 +9,9 @@ using UnityEngine.InputSystem;
 public class CardBehavior : MonoBehaviour
 {
    public Sprite faceUpSprite;
-   public float speed = 5;
+   public float speed;
    private Vector3 arrivalPoint;
-
+   public static bool hasBeenChosen = false;
    private Sprite faceDownSprite;
 
    private Animator animator;
@@ -46,7 +47,7 @@ public class CardBehavior : MonoBehaviour
    private void Start(){
       faceDownSprite = GetComponent<SpriteRenderer>().sprite;
       animator = GetComponent<Animator>();
-      arrivalPoint = new Vector3(-12f, 5f, 0f);
+      arrivalPoint = new Vector3(-12f, 0f, 0f);
 
    }
 
@@ -67,19 +68,24 @@ public class CardBehavior : MonoBehaviour
    }
    public void Slide(){
       StartCoroutine(SlideToArrivalPoint());
-   
+      Debug.Log("slide");
    }
 
    private IEnumerator SlideToArrivalPoint()
     {
       Debug.Log("is slide");
-        float duration = 5f; // La durée du mouvement
-        Vector3 initialPosition = transform.position;
+        speed = 10f; // La durée du mouvement
+        Vector3 initialPosition = transform.parent.position;
+        
+        Vector3 direction = (arrivalPoint - initialPosition).normalized;
+        float duration = Vector3.Distance(initialPosition, arrivalPoint) / speed;
+
         float elapsedTime = 0;
 
-        while (Vector3.Distance(transform.position, arrivalPoint) > 0.01f)
+        while (elapsedTime < duration)
         {
-            transform.position = Vector3.Lerp(initialPosition, arrivalPoint, elapsedTime / duration);
+            float step = speed * Time.deltaTime;
+            transform.parent.position = Vector3.MoveTowards(transform.parent.position, arrivalPoint, step);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
@@ -101,10 +107,15 @@ public class CardBehavior : MonoBehaviour
    }
 
    private void OnMouseClicked(InputAction.CallbackContext context){
-      if(mouseIsOver) {
+      if(mouseIsOver && !hasBeenChosen) {
          isClicked = true;
          manager.FaceUp(this);  
          
+         CardBehavior.hasBeenChosen = true;
+
+      
+         // Trigger the animation using the animator and the trigger parameter.
+        animator.SetTrigger("Slide");
 
       } 
    }

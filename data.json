@@ -3,114 +3,142 @@
         {   
             "id": "1",
             "nom":"The Fool",
-            "description":"beginnings, freedom, innocence, originality, adventure, idealism, spontaneity"
+            "description":"beginnings, freedom, innocence, originality, adventure, idealism, spontaneity",
+            "image_url": "Assets/images/cards/01-thefool.png"
         },
         {   
             "id": "2",
             "nom":"The Magician",
-            "description":"willpower, desire, being resourceful,, skill, ability, concentration, manifestation"
+            "description":"willpower, desire, being resourceful,, skill, ability, concentration, manifestation",
+            "image_url": "Assets/images/cards/02-themagician.png"
 
         },
         {   
             "id": "3",
             "nom":"The High Priestess",
-            "description":"unconscious, intuition, mystery, spirituality, higher power, inner voice"
+            "description":"unconscious, intuition, mystery, spirituality, higher power, inner voice",
+            "image_url": "Assets/images/cards/03-thehighpriestess.png"
 
         },
         {   
             "id": "4",
             "nom":"The Empress",
-            "description":"divine feminine, sensuality, fertility, nurturing, creativity, beauty, abundance, nature"
+            "description":"divine feminine, sensuality, fertility, nurturing, creativity, beauty, abundance, nature",
+            "image_url": "Assets/images/cards/04-theempress.png"
         },
         {   
             "id": "5",
             "nom":"The Emperor",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline"
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "image_url": "Assets/images/cards/05-theemperor.png"
         },
         {   
             "id": "6",
             "nom":"The Hierophant",
-            "description":"tradition, social groups, conventionality, conformity, education, knowledge, beliefs"
+            "description":"tradition, social groups, conventionality, conformity, education, knowledge, beliefs",
+            "image_url": "Assets/images/cards/06-thehierophant.png"
         },
         {   
             "id": "7",
             "nom":"The Lovers",
-            "description":"love, unions, partnerships, relationships, choices, romance, balance, unity"
+            "description":"love, unions, partnerships, relationships, choices, romance, balance, unity",
+            "image_url": "Assets/images/cards/07-thelovers.png"
         },
         {   
             "id": "8",
             "nom":"The Chariot",
-            "description":"success, ambition, determination, willpower, control, self-discipline, focus"
+            "description":"success, ambition, determination, willpower, control, self-discipline, focus",
+            "image_url": "Assets/images/cards/08-thechariot.png"
         },
         {   
             "id": "9",
             "nom":"Strength",
-            "description":"courage, bravery, confidence, compassion, self-confidence, inner power"
+            "description":"courage, bravery, confidence, compassion, self-confidence, inner power",
+            "image_url": "Assets/images/cards/09-strength.png"
         },
         {   
             "id": "10",
             "nom":"The Hermit",
-            "description":" self-reflection, introspection, contemplation, withdrawal, solitude, search for self"
+            "description":" self-reflection, introspection, contemplation, withdrawal, solitude, search for self",
+            "image_url": "Assets/images/cards/10-thehermit.png"
         },
         {   
             "id": "11",
-            "nom":"The Wheel of fortune",
-            "description":"bo"
+            "nom":"The Wheel",
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "image_url": "Assets/images/cards/11-thewheeloffortune.png"
         },
         {   
             "id": "12",
             "nom":"The Justice",
-            "description":"bo"
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "image_url": "Assets/images/cards/12-justice.png"
         },
         {   
             "id": "13",
             "nom":"The Hanged Man",
-            "description":"bo"
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "image_url": "Assets/images/cards/13-thehangedman.png"
         },
         {   
             "id": "14",
             "nom":"Death",
-            "description":"bo"
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "image_url": "Assets/images/cards/14-death.png"
+
         },
         {   
             "id": "15",
             "nom":"Temperance",
-            "description":"bo"
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "image_url": "Assets/images/cards/15-temperance.png"
+
         },        
         {   
             "id": "16",
             "nom":"The Devil",
-            "description":" bo"
+            "description":" stability, structure, protection, authority, control, practicality, focus, discipline",
+            "image_url": "Assets/images/cards/16-thedevil.png"
+
         },
         {   
             "id": "17",
             "nom":"The Tower",
-            "description":"bo"
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "image_url": "Assets/images/cards/17-thetower.png"
+
         },
         {   
             "id": "18",
             "nom":"The Star",
-            "description":"bo"
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "image_url": "Assets/images/cards/18-thestar.png"
+
         },
         {   
             "id": "19",
             "nom":"The Moon",
-            "description":"bo"
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "image_url": "Assets/images/cards/19-themoon.png"
+            
         },
         {   
             "id": "20",
             "nom":"The Sun",
-            "description":"bo"
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "image_url": "Assets/images/cards/20-thesun.png"
         },
         {   
             "id": "21",
             "nom":"Judgement",
-            "description":"bo"
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "image_url": "Assets/images/cards/21-judgment.png"
         },        
         {
             "id": "22",
             "nom":"The World",
-            "description":"bo"
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "image_url": "Assets/images/cards/22-theworld.png"
         }
     ]
 }

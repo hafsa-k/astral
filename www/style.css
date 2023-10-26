@@ -4,6 +4,11 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'roboto'; /* Choose any name you want */
+  src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+}
  
 @font-face {
   font-family: 'roboto'; /* Choose any name you want */
@@ -23,7 +28,7 @@ body {
         margin: 0;
         padding: 0;
  /* Couleur noire pour le texte */
-     
+      
 }
  
 h1{
@@ -37,8 +42,8 @@ h2{
     color: #584229;
     text-align: center;
     margin-bottom: 3rem;
-}
- 
+} 
+
 h3{
   font-family: 'blackchancery'!important;
   color: #584229;
@@ -183,7 +188,7 @@ input{
   .container {
     float: none;
   }
- 
+  
   .button1 {
     margin-right: 10px;
     list-style: 3em;

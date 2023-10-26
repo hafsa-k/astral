@@ -3,141 +3,140 @@
         {   
             "id": "1",
             "nom":"The Fool",
-            "description":"beginnings, freedom, innocence, originality, adventure, idealism, spontaneity",
+            "description":"beginnings, freedom, innocence, originality, adventure, idealism, spontaneity. \n To see the The Fool generally means the beginning of a new journey consider him a blank slate. \n With his card numbered 0, which is considered to be a number of infinite potential, he is seen as a call to the risk-taking, to inspire courage filled with optimism and freedom, \n with that comes a mixture of anticipation, wonder and curiosity. \n The Fool is there to show that you can never really tell what lies ahead, and you can only greet it with joy. ",
             "image_url": "Assets/images/cards/01-thefool.png"
         },
         {   
             "id": "2",
             "nom":"The Magician",
-            "description":"willpower, desire, being resourceful,, skill, ability, concentration, manifestation",
+            "description":"willpower, desire, being resourceful,, skill, ability, concentration, manifestation completion, achievement, fulfilment, sense of belonging, wholeness, harmony ",
             "image_url": "Assets/images/cards/02-themagician.png"
 
         },
         {   
             "id": "3",
             "nom":"The High Priestess",
-            "description":"unconscious, intuition, mystery, spirituality, higher power, inner voice",
+            "description":"unconscious, intuition, mystery, spirituality, higher power, inner voice \n",
             "image_url": "Assets/images/cards/03-thehighpriestess.png"
 
         },
         {   
             "id": "4",
             "nom":"The Empress",
-            "description":"divine feminine, sensuality, fertility, nurturing, creativity, beauty, abundance, nature",
+            "description":"divine feminine, sensuality, fertility, nurturing, creativity, beauty, abundance, nature \n",
             "image_url": "Assets/images/cards/04-theempress.png"
         },
         {   
             "id": "5",
             "nom":"The Emperor",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline \n",
             "image_url": "Assets/images/cards/05-theemperor.png"
         },
         {   
             "id": "6",
             "nom":"The Hierophant",
-            "description":"tradition, social groups, conventionality, conformity, education, knowledge, beliefs",
+            "description":"tradition, social groups, conventionality, conformity, education, knowledge, beliefs \n",
             "image_url": "Assets/images/cards/06-thehierophant.png"
         },
         {   
             "id": "7",
             "nom":"The Lovers",
-            "description":"love, unions, partnerships, relationships, choices, romance, balance, unity",
+            "description":"love, unions, partnerships, relationships, choices, romance, balance, unity \n",
             "image_url": "Assets/images/cards/07-thelovers.png"
         },
         {   
             "id": "8",
             "nom":"The Chariot",
-            "description":"success, ambition, determination, willpower, control, self-discipline, focus",
+            "description":"success, ambition, determination, willpower, control, self-discipline, focus \n",
             "image_url": "Assets/images/cards/08-thechariot.png"
         },
         {   
             "id": "9",
             "nom":"Strength",
-            "description":"courage, bravery, confidence, compassion, self-confidence, inner power",
+            "description":"courage, bravery, confidence, compassion, self-confidence, inner power \n",
             "image_url": "Assets/images/cards/09-strength.png"
         },
         {   
             "id": "10",
             "nom":"The Hermit",
-            "description":" self-reflection, introspection, contemplation, withdrawal, solitude, search for self",
+            "description":" self-reflection, introspection, contemplation, withdrawal, solitude, search for self \n ",
             "image_url": "Assets/images/cards/10-thehermit.png"
         },
         {   
             "id": "11",
-            "nom":"The Wheel",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "nom":"The Wheel of Fortune",
+            "description":"change, cycles, fate, decisive moments, luck, fortune, unexpected events \n",
             "image_url": "Assets/images/cards/11-thewheeloffortune.png"
         },
         {   
             "id": "12",
             "nom":"The Justice",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"justice, karma, consequence, accountability, law, truth, honesty, integrity, cause and effect \n ",
             "image_url": "Assets/images/cards/12-justice.png"
         },
         {   
             "id": "13",
             "nom":"The Hanged Man",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"sacrifice, waiting, uncertainty, lack of direction, perspective, contemplation \n The hanged man understands that his position is a sacrifice that he needed to make in order to progress forward. The card reflects a particular need to suspend certain action.\n As a result, this might indicate a certain period of indecision. Have more time to reflect on making critical decisions  ",
             "image_url": "Assets/images/cards/13-thehangedman.png"
         },
         {   
             "id": "14",
             "nom":"Death",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"transformation, endings, change, transition, letting go, release \n The Death card is very misunderstood the real meaning within the Death card is one of the most positive in the whole deck. \n signals that one major phase in your life is ending or that you are going through a big change, transition, or transformation, and a new one is going to start. You just need to close one door, so the new one will open. \nThe past needs to be placed behind you, so you can focus your energy on what is ahead of you. \n old you needs to 'die' to allow the new you to be created. can be scary because you are unsure of what will happen but you should welcome the change. You might have to let go of unhealthy attachments and learn to move forward ",
             "image_url": "Assets/images/cards/14-death.png"
 
         },
         {   
             "id": "15",
             "nom":"Temperance",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"balance, peace, patience, moderation, calm, tranquillity, harmony, serenity \n  The Temperance tarot card suggests moderation and balance, coupled with a lot of patience. \nIn moments where there is anxiety or great stress, you have been able to remain calm throughout. This allows you to achieve much progress in all areas you seek out to explore. ",
             "image_url": "Assets/images/cards/15-temperance.png"
 
         },        
         {   
             "id": "16",
             "nom":"The Devil",
-            "description":" stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"oppression, addiction, obsession, dependency, excess, powerlessness, limitations \n  the devil card shows that you have feelings of entrapment, emptiness or lack of fulfillment, slave to materialism or opulence, this kind of lifestyle is leading you down the rabbit hole",
             "image_url": "Assets/images/cards/16-thedevil.png"
 
         },
         {   
             "id": "17",
             "nom":"The Tower",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"disaster, destruction, upheaval, trauma, sudden change, chaos \n The Tower represents change in the most radical and momentous sense. The kind of event that the Tower card marks does not have to be something terrible.\n Change itself is a normal part of life that one has to embrace. But it can sometimes strike fear, for it means that we must abandon the truths that we have known. The old ways are no longer useful",
             "image_url": "Assets/images/cards/17-thetower.png"
 
         },
         {   
             "id": "18",
             "nom":"The Star",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"hope, inspiration, positivity, faith, renewal, healing, rejuvenation \n The Star brings hope, renewed power, and strength to carry on with life. It may not be directly evident at the moment, for this card follows the trauma of the Tower card. Remember that you hold within you all that you need for your fulfillment - the only thing that you need is courage. It is only now that you can really appreciate all that you have. you have gone and managed to go through this without losing your hope.",
             "image_url": "Assets/images/cards/18-thestar.png"
 
         },
         {   
             "id": "19",
             "nom":"The Moon",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"illusion, intuition, uncertainty, confusion, complexity, secrets, unconscious \n the Moon card can symbolize your imagination taking the best of you. In the dark of the night, you are taking a path unsure if there could be danger lurking. Embarking on the path the moon's light can bring you clarity and understanding \n you should allow your intuition to guide you through this darkness.\n  Be aware of the situations that are causing fear and anxiety in your mind, the negative energies must be released and turned into something constructive.Some hidden truth must be discovered, for what you are seeing now may just be a trick of the light.",
             "image_url": "Assets/images/cards/19-themoon.png"
             
         },
         {   
             "id": "20",
             "nom":"The Sun",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"happiness, success, optimism, vitality, joy, confidence, happiness, truth \n . This card represents the dawn which follows the darkest of nights. \n Like the sun itself, that gives strength and vitality to all those that are lucky enough to feel its rays. Your own personal fulfillment provide others with inspiration and joy. \n People are drawn to you because they are capable of seeing the warm and beautiful energy which you bring into their lives.The card shows that you have a significant sense of deserved confidence right now. ",
             "image_url": "Assets/images/cards/20-thesun.png"
         },
         {   
             "id": "21",
             "nom":"Judgement",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
-            "image_url": "Assets/images/cards/21-judgment.png"
+            "description":"self-evaluation, awakening, renewal, purpose, reflection, reckoning \n It is through self-reflection that we can have a clearer and objective understanding about where we are now, \n and what we need to do in order to grow. The Judgement card appearing in a reading signifies that you are coming close to this significant point in your life where you must start to evaluate yourself. "
         },        
         {
             "id": "22",
             "nom":"The World",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"completion, achievement, fulfilment, sense of belonging, wholeness, harmony \n She symbolizes balance and evolution in movement, ever-changing, dynamic and eternal. \n The moment when the inner and the outer worlds - self and other - become a single entity \n The World may indicate completion of a long-term project, any other major event in your life. \n You may have to let go of the past, so you can move forward with your plans, choices that will have an astounding effect for your entire life. ",
             "image_url": "Assets/images/cards/22-theworld.png"
         }
     ]

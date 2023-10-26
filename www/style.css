@@ -1,65 +1,69 @@
-@font-face
-{
-    font-family: 'blackchancery';
-    src: url('./Assets/font/BLKCHCRY.TTF');
+@font-face {
+  font-family: 'blackchancery'; /* Choose any name you want */
+  src: url('./Assets/font/blackchancery.ttf') format('truetype'); /* Adjust the path and format as needed */
+  font-weight: normal;
+  font-style: normal;
 }
-
+ 
+@font-face {
+  font-family: 'roboto'; /* Choose any name you want */
+  src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+}
+ 
 *{
     margin: auto;
-    font-family:url( "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" )
 }
-
+ 
 /* Styles pour votre site */
 body {
-        background-image: url(./Assets/images/cardd.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        /*background-image: url(./Assets/images/cardd.jpg);*/
+        /* background-repeat: no-repeat;
+        background-size: cover; */
         background-color: #f1f1f1;
-      
-        color: #333;
         margin: 0;
         padding: 0;
-        color: black; /* Couleur noire pour le texte */
-        font-family: 'Roboto', sans-serif;
-        font-weight: 3rem;
-
+ /* Couleur noire pour le texte */
+     
 }
-
+ 
 h1{
-    color: #584229;
-    text-align: center;
-    margin-bottom: 7rem;
-    font-family: 'blackchancery';
+  font-family: 'blackchancery'!important;
+  text-align: center;
+  margin-bottom: 7rem;
   }
-
+ 
 h2{
+    font-family: 'blackchancery'!important;
     color: #584229;
     text-align: center;
     margin-bottom: 3rem;
 }
-
+ 
 h3{
+  font-family: 'blackchancery'!important;
   color: #584229;
-  text-align: center;
+  text-align: left;
   margin-bottom: 3rem;
 }
 p{
   margin-top: 5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 3rem;
 }
-
-
-
+ 
+ 
+ 
 /* Styles pour la barre de navigation */
 .navbar {
-    
+   
     overflow: hidden;
     top:0
   }
   .logo{
     border-radius: 5px;
   }
-
-  
+ 
+ 
   .navbar a {
     float: left;
     display: block;
@@ -68,7 +72,7 @@ p{
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+ 
   /* Styles pour les cartes de tarot */
   .tarot-card {
     width: 200px;
@@ -82,23 +86,23 @@ p{
     justify-content: center;
     align-items: center;
   }
-  
+ 
   .tarot-card img {
     width: 100px;
     height: 100px;
     margin-bottom: 10px;
   }
-
+ 
    /* Styles pour le formulaire */
    .form-container {
     width: 400px;
     margin: 0 auto;
     padding: 20px;
-  
+ 
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  
+ 
   .form-container input {
     width: 100%;
     padding: 10px;
@@ -106,18 +110,18 @@ p{
     border: none;
     border-radius: 5px;
     color: #8d6d3a;
-
+ 
   }
-
+ 
 input{
     color: #584229;
     width: 50%;
-
+ 
   }
-  
+ 
   .form-container button {
     width: 40%;
-     padding: 10px; 
+     padding: 10px;
     background-color: #584229;
     color: #fff;
     border: none;
@@ -127,13 +131,13 @@ input{
     display: flex;
     flex-direction: row;
   }
-  
+ 
   .form-container button:hover {
     background-color: #8d6d3a;
   }
-
+ 
   /* Partie jeu */
-
+ 
   #jeu{
     width : 800px;
     height: 400px;
@@ -162,7 +166,7 @@ input{
     height: 600px;
     background-color: grey;
   }
-
+ 
   .login {
     position: relative;
     margin: 100px auto;
@@ -174,18 +178,18 @@ input{
       border-left: 1px solid rgba(255,255,255,0.2);
       box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
     border-radius: 3px;
-  
+ 
   }
   .container {
     float: none;
   }
-  
-  .button 1 {
+ 
+  .button1 {
     margin-right: 10px;
     list-style: 3em;
   }
    
-  .button 1 {
+  .button1 {
     margin-right: 10px;
     list-style: 3em;
   }

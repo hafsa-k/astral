@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"><img src="./Assets/images/logo2.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -19,51 +19,26 @@
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
             </li>
-           
             <li class="nav-item">
               <a class="nav-link" href="cards.html">carte</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="inscription.html">Inscription</a>
-              </li>
-
+              <a class="nav-link" href="inscription.html">Inscription</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="connexion.html">Connexion</a>
-            </li>
-            
 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="connexion.html">Connexion</a>
+          </li>
           </ul>
         </div>
       </nav>
 
 
-<!-- inscription -->
-
-
-
-
-        <div class="form-container">
-         <div id="inscription">
-         <h2>Inscription</h2>  
-
-
-         <div class="login">
-          <form action="" method="post" >
-            <input type="text" placeholder="Nom :" required>
-            <br><br>
-            <input type="email" placeholder="Email :" required><br><br>
-            <input type="password" placeholder="Mot de passe :" required><br><br>
-            <button type="submit">S'inscrire</button>
-          </form>
-        </div>   
-          
-        </div>
-    </div>
-     
-      
-
-      
+<!--   
+  Cartes de tarot -->
+  <h1>Astral</h1> 
+    <div id="jeu"></div>
 
     
 </body>

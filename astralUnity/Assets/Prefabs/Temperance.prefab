@@ -16,6 +16,14 @@ PrefabInstance:
       propertyPath: faceUpSprite
       value: 
       objectReference: {fileID: -1495607818, guid: 410aa31d14c01bc4fa49949e7ab160a0, type: 3}
+    - target: {fileID: 4456038683589662962, guid: 79bf2c520d7fdd9468580be5f0726899, type: 3}
+      propertyPath: id
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456038683589662962, guid: 79bf2c520d7fdd9468580be5f0726899, type: 3}
+      propertyPath: faceUpSprite
+      value: 
+      objectReference: {fileID: -1495607818, guid: 410aa31d14c01bc4fa49949e7ab160a0, type: 3}
     - target: {fileID: 5104672528968007029, guid: 79bf2c520d7fdd9468580be5f0726899, type: 3}
       propertyPath: m_Name
       value: Temperance

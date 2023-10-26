@@ -16,6 +16,18 @@ PrefabInstance:
       propertyPath: faceUpSprite
       value: 
       objectReference: {fileID: 2076839257, guid: 410aa31d14c01bc4fa49949e7ab160a0, type: 3}
+    - target: {fileID: 2539054902512271171, guid: 79bf2c520d7fdd9468580be5f0726899, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456038683589662962, guid: 79bf2c520d7fdd9468580be5f0726899, type: 3}
+      propertyPath: id
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456038683589662962, guid: 79bf2c520d7fdd9468580be5f0726899, type: 3}
+      propertyPath: faceUpSprite
+      value: 
+      objectReference: {fileID: 2076839257, guid: 410aa31d14c01bc4fa49949e7ab160a0, type: 3}
     - target: {fileID: 5104672528968007029, guid: 79bf2c520d7fdd9468580be5f0726899, type: 3}
       propertyPath: m_Name
       value: TheChariot

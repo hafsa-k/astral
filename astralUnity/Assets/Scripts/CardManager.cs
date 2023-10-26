@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class CardManager : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class CardManager : MonoBehaviour
     private List<int> indexesAlreadyInGame = new();
     private List<int> indexesNotAllowedAnymore = new();
     public int nCards = 22;
-
+   
     void Start()
     {
         InstanciateCards();
@@ -19,13 +20,14 @@ public class CardManager : MonoBehaviour
 
     //revoir cette partie la pour l'affichage
     void InstanciateCards()
+    
     {
-        float cardSpacing = 2f; // Espacement entre les cartes (ajustez selon vos besoins)
-        Vector3 offset = new Vector3(-20, -2, 0);
+        float cardSpacing = 1.1f; // Espacement entre les cartes (ajustez selon vos besoins)
+        Vector3 parentPosition = transform.position - cardSpacing * (nCards-1)* 0.5f * Vector3.right;
 
         for (int line = 0; line < nCards; line++)
         {
-            Vector3 position = offset + Vector3.right * (line * cardSpacing);
+            Vector3 position = parentPosition + Vector3.right * (line * cardSpacing);
             InstanciateCard(position);
         }
     }
@@ -45,7 +47,7 @@ public class CardManager : MonoBehaviour
 
 
         GameObject card = Instantiate(deck[index], position, Quaternion.identity) as GameObject;
-        card.GetComponent<CardBehavior>().manager = this;
+        card.GetComponentInChildren<CardBehavior>().manager = this;
 
     }
 

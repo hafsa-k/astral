@@ -16,6 +16,14 @@ PrefabInstance:
       propertyPath: faceUpSprite
       value: 
       objectReference: {fileID: 1280170053, guid: 5ca6bed9d2c697d448449ca77d0c6a58, type: 3}
+    - target: {fileID: 4456038683589662962, guid: 79bf2c520d7fdd9468580be5f0726899, type: 3}
+      propertyPath: id
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456038683589662962, guid: 79bf2c520d7fdd9468580be5f0726899, type: 3}
+      propertyPath: faceUpSprite
+      value: 
+      objectReference: {fileID: 1280170053, guid: 5ca6bed9d2c697d448449ca77d0c6a58, type: 3}
     - target: {fileID: 5104672528968007029, guid: 79bf2c520d7fdd9468580be5f0726899, type: 3}
       propertyPath: m_Name
       value: Death

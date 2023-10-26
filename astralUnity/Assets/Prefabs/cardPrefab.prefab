@@ -198,6 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   faceUpSprite: {fileID: 0}
+  speed: 0
   id: 0
   actions: {fileID: -944628639613478452, guid: 49091378468b5f748bed9352c32d18fb, type: 3}
   manager: {fileID: 0}

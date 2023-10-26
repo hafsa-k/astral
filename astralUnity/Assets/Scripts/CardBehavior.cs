@@ -111,6 +111,7 @@ public class CardBehavior : MonoBehaviour
          isClicked = true;
          manager.FaceUp(this);  
          
+         
          CardBehavior.hasBeenChosen = true;
 
       

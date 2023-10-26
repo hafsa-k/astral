@@ -1,3 +1,9 @@
+@font-face
+{
+    font-family: 'blackchancery';
+    src: url('./Assets/font/BLKCHCRY.TTF');
+}
+
 *{
     margin: auto;
     font-family:url( "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" )
@@ -5,13 +11,14 @@
 
 /* Styles pour votre site */
 body {
-        font-family: Roboto;
+        background-image: url(./Assets/images/cardd.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         background-color: #f1f1f1;
+      
         color: #333;
         margin: 0;
         padding: 0;
-    
-        background-color: linear-gradient(gold, rgb(51, 34, 12));
         color: black; /* Couleur noire pour le texte */
         font-family: 'Roboto', sans-serif;
         font-weight: 3rem;
@@ -21,26 +28,35 @@ body {
 h1{
     color: #584229;
     text-align: center;
-    
     margin-bottom: 7rem;
-}
+    font-family: 'blackchancery';
+  }
+
 h2{
     color: #584229;
     text-align: center;
-    
     margin-bottom: 3rem;
+}
+
+h3{
+  color: #584229;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+p{
+  margin-top: 5rem;
 }
 
 
 
 /* Styles pour la barre de navigation */
 .navbar {
-    background-color: #0a0a0a;
+    
     overflow: hidden;
     top:0
   }
-  .navbar-brand{
-
+  .logo{
+    border-radius: 5px;
   }
 
   
@@ -100,14 +116,16 @@ input{
   }
   
   .form-container button {
-    width: 60%;
+    width: 40%;
      padding: 10px; 
     background-color: #584229;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
   }
   
   .form-container button:hover {
@@ -125,19 +143,49 @@ input{
   #jeuu{
     width : 600px;
     height: 400px;
-    background-color: grey;
+    background-color: rgb(56, 37, 9);
     border-radius: 5px;
+    margin: auto;
+    margin-left: -30%;
   }
   .jeu{
-    width : 700px;
+    width : 800px;
     height: 400px;
-    background-color: rgb(209, 183, 33);
+    background-color: rgb(75, 56, 22);
     border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 50%;
+    margin-top: 50px;
+    margin-left: 10%;
+    padding: 10px;
   }
   #jeux{
     width : 1000px;
-    height: 800px;
+    height: 600px;
     background-color: grey;
+  }
+
+  .login {
+    position: relative;
+    margin: 100px auto;
+    width: 370px;
+    /* height: 315px; */
+   background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid rgba(255,255,255,0.2);
+      border-left: 1px solid rgba(255,255,255,0.2);
+      box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    border-radius: 3px;
+  
+  }
+  .container {
+    float: none;
+  }
+  
+  .button 1 {
+    margin-right: 10px;
+    list-style: 3em;
+  }
+   
+  .button 1 {
+    margin-right: 10px;
+    list-style: 3em;
   }

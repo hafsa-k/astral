@@ -28,7 +28,7 @@
 
     ?>
      <!-- PROBLEME avec ce code, je l'ai commenté car sinon on ne sait pas cliquer sur le bouton submit juste avant-->
-   <!--<a href="#" class="lostpass">Mot de passe oublié ?</a> -->
+   <!-- <a href="#" class="lostpass">Mot de passe oublié ?</a> 
     
  </div>   
    

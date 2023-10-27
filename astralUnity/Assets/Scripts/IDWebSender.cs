@@ -6,20 +6,22 @@ using UnityEngine.Networking;
 public class IDWebSender : MonoBehaviour
 {
     
-    public string webServiceURL = "https://localhost/astral/Session/accueil.php?id_carte=";
+    public string webServiceURL = "https://localhost/astral/Session/index.php?id_carte=";
 
     // if (_isClicked){
     private static int gameID; //BUGG :: Remplacez par l'ID de jeu que vous souhaitez envoyer peut etre un HGetcompenent de l'id de la cartebehavior dans unity
 
     // }
 
-    public static void SendCard(int idCarte){
-        gameID = idCarte;
-        Debug.Log("Carte sent to url");
+    public static IDWebSender instance;
+
+    void Start() {
+        instance = this;
     }
 
-    void Start()
-    {
+
+    public void SendCard(int idCarte){
+        gameID = idCarte;
         StartCoroutine(SendWebRequest());
     }
 

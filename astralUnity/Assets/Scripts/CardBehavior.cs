@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(Animator))]
 public class CardBehavior : MonoBehaviour
 {
+   public JSONReaderSymboles JSON; //start
    public Sprite faceUpSprite;
    public float speed;
    private Vector3 arrivalPoint;
@@ -21,6 +23,9 @@ public class CardBehavior : MonoBehaviour
 
    public int id;
 
+   public TMP_Text _text;
+   public TMP_Text _name;
+   
    public InputActionAsset actions;
 
    [HideInInspector]
@@ -41,14 +46,17 @@ public class CardBehavior : MonoBehaviour
       set {
          _isClicked = value;
          animator.SetBool("is clicked", value);
+         
       }
    }
 
    private void Start(){
       faceDownSprite = GetComponent<SpriteRenderer>().sprite;
       animator = GetComponent<Animator>();
-      arrivalPoint = new Vector3(-10f, 0f, 0f);
-
+      arrivalPoint = new Vector3(-11.5f, 0f, 0f);
+      JSON = FindObjectOfType<JSONReaderSymboles>();
+      _text = GameObject.FindWithTag("TextDescription").GetComponent<TMP_Text>();
+      _name = GameObject.FindWithTag("TextName").GetComponent<TMP_Text>();
    }
 
    
@@ -92,7 +100,15 @@ public class CardBehavior : MonoBehaviour
 
         // Assurez-vous que la position d'arrivée soit exacte pour éviter de petits décalages.
         transform.position = arrivalPoint;
+        _text.text = GetDescription(id)[1];
+        _name.text = GetDescription(id)[0];
     }
+   //ici afficher la description liée à l'id de la carte
+
+   private List<string> GetDescription(int id)
+   {
+      return JSON.dicoDeCartes[id.ToString()];
+   }
 
    // public void UnSwitch(){
    //    GetComponent<SpriteRenderer>().sprite = faceDownSprite;
@@ -111,7 +127,7 @@ public class CardBehavior : MonoBehaviour
          isClicked = true;
          manager.FaceUp(this);  
          
-         IDWebSender.SendCard(id);
+         IDWebSender.instance.SendCard(id);
          
          CardBehavior.hasBeenChosen = true;
 

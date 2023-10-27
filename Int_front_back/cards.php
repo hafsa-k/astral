@@ -6,7 +6,7 @@
 
 <!--   
   Cartes de tarot -->
-  <h2>Le dictionnaire des cartes</h2>
+  <h2>Cards dictionnary</h2>
     <div class="container">
         <div class="row">
         <?php
@@ -31,7 +31,7 @@
 
                 echo '<div class="col-3">'; // Chaque carte dans une colonne de largeur 3 (total de 4 colonnes par ligne)
                 echo '<li>';
-                echo '<img src="' . $card['image_url'] . '" alt="' . $card['nom'] . '"><br>';
+                echo '<img src="' . $card['image_url'] . '" alt="' . $card['nom'] . '"><br><br>';
                 echo 'Nom: ' . $card['nom'] . '<br>';
                 echo 'Description: ' . $card['description'] . '<br> <br> <br>';
                 echo '</li>';

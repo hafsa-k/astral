@@ -23,6 +23,9 @@
               <a class="nav-link" href="cards.php">Carte</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="historique.php">Historique</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="inscription.php">Inscription</a>
               </li>
 

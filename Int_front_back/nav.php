@@ -22,11 +22,21 @@
             <li class="nav-item">
               <a class="nav-link" href="cards.php">Carte</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="historique.php">Historique</a>
-            </li>
             <?php
             session_start();
+            if(isset($_SESSION['nom'])==true){
+              print('<li class="nav-item">
+              <a class="nav-link" href="historique.php">Historique</a>
+              </li>');
+            }else{
+              print('<li></li>');
+            }
+            ?>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="historique.php">Historique</a>
+            </li> -->
+            <?php
+            // session_start();
             if(isset($_SESSION['nom'])==true){
               print('<li></li>');
             }else{
@@ -34,7 +44,7 @@
               <a class="nav-link" href="inscription.php">Inscription</a>
             </li>');
             }
-                      ?>
+            ?>
             <?php
             // session_start();
             // print($_SESSION['nom']);
@@ -58,7 +68,7 @@
             </li>');
             }
         ?>
-           
+        
           </ul>
         </div>
       </nav>

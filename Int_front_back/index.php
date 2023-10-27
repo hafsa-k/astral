@@ -13,7 +13,31 @@
       print("<h1>Bienvenue sur Astral"."</h1>"); // Message par défaut si le nom n'est pas défini en session
   }?>
 
-    <div class="jeu"></div>
+    <div class="jeu">
+    <iframe src="http://localhost/astral/Int_front_back/Builds/index.html"
+ 
+ overflow:hidden;
+  
+ width="100%"
+  
+ height="680px"
+  
+ title="VRMap"
+  
+ scrolling="no"
+  
+ overflow="hidden"
+  
+ overflow-y="hidden"
+  
+ allowfullscreen="true";>
+  
+ Browser not compatible.
+  
+ </iframe>
+  
+
+    </div>
     
 
 <div class="container">

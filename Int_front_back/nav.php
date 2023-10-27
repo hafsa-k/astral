@@ -25,17 +25,32 @@
             <li class="nav-item">
               <a class="nav-link" href="historique.php">Historique</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="inscription.php">Inscription</a>
-              </li>
-
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="connexion.php">Connexion</a>
-            </li>
-
             <?php
             session_start();
+            if(isset($_SESSION['nom'])==true){
+              print('<li></li>');
+            }else{
+              print('<li class="nav-item">
+              <a class="nav-link" href="inscription.php">Inscription</a>
+            </li>');
+            }
+                      ?>
+            <?php
+            // session_start();
+            // print($_SESSION['nom']);
+            if(isset($_SESSION['nom'])==true){
+              print('<li></li>');
+            }else{
+              print('<li class="nav-item">
+              <a class="nav-link" href="connexion.php">Connexion</a>
+            </li>');
+            }
+            // <li class="nav-item">
+              //<a class="nav-link" href="connexion.php">Connexion</a>
+           // </li> 
+            ?>
+            <?php
+            // session_start();
             // print($_SESSION['nom']);
             if(isset($_SESSION['nom'])==true){
               print('<li class="nav-item">

@@ -9,10 +9,14 @@ public class IDWebSender : MonoBehaviour
     public string webServiceURL = "https://localhost/astral/Session/accueil.php?id_carte=";
 
     // if (_isClicked){
-    private int gameID = 123 ; //BUGG :: Remplacez par l'ID de jeu que vous souhaitez envoyer peut etre un HGetcompenent de l'id de la cartebehavior dans unity
+    private static int gameID; //BUGG :: Remplacez par l'ID de jeu que vous souhaitez envoyer peut etre un HGetcompenent de l'id de la cartebehavior dans unity
 
     // }
 
+    public static void SendCard(int idCarte){
+        gameID = idCarte;
+        Debug.Log("Carte sent to url");
+    }
 
     void Start()
     {

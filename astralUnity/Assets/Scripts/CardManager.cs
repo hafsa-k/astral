@@ -60,7 +60,6 @@ public class CardManager : MonoBehaviour
     {
         Debug.Log($"card face up: {card.name}");
         yield return new WaitForSeconds(0.5f);
-
     
     }
 }

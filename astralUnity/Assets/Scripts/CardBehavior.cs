@@ -47,7 +47,7 @@ public class CardBehavior : MonoBehaviour
    private void Start(){
       faceDownSprite = GetComponent<SpriteRenderer>().sprite;
       animator = GetComponent<Animator>();
-      arrivalPoint = new Vector3(-12f, 0f, 0f);
+      arrivalPoint = new Vector3(-10f, 0f, 0f);
 
    }
 
@@ -111,6 +111,7 @@ public class CardBehavior : MonoBehaviour
          isClicked = true;
          manager.FaceUp(this);  
          
+         IDWebSender.SendCard(id);
          
          CardBehavior.hasBeenChosen = true;
 

@@ -3,141 +3,141 @@
         {   
             "id": "1",
             "nom":"The Fool",
-            "description":"beginnings, freedom, innocence, originality, adventure, idealism, spontaneity",
+            "description":"beginnings, freedom, innocence, originality, adventure, idealism, spontaneity...\nThe Fool symbolizes adventure and spontaneity. It encourages you to step out of your comfort zone. Why not take a risk and learn a new programming language? It's the perfect time to explore new opportunities and challenge your skills. In the programming world, be bold and explore new areas.",
             "image_url": "Assets/images/cards/01-thefool.png"
         },
         {   
             "id": "2",
             "nom":"The Magician",
-            "description":"willpower, desire, being resourceful,, skill, ability, concentration, manifestation",
+            "description":"willpower, desire, being resourceful,, skill, ability, concentration, manifestation...\nThe Magician represents mastery of skills. It invites you to harness your potential and develop your programming skills. You have the power to create magical solutions with your code. Explore new libraries and frameworks to become a 'magician' of code.",
             "image_url": "Assets/images/cards/02-themagician.png"
 
         },
         {   
             "id": "3",
             "nom":"The High Priestess",
-            "description":"unconscious, intuition, mystery, spirituality, higher power, inner voice",
+            "description":"unconscious, intuition, mystery, spirituality, higher power, inner voice...\nTrust your programming instincts and explore deeper coding knowledge. Hidden insights may hold the key to solving complex challenges. Dive into less obvious resources to uncover wisdom in the world of code. Be open to intuitive solutions while tackling coding problems.",
             "image_url": "Assets/images/cards/03-thehighpriestess.png"
 
         },
         {   
             "id": "4",
             "nom":"The Empress",
-            "description":"divine feminine, sensuality, fertility, nurturing, creativity, beauty, abundance, nature",
+            "description":"divine feminine, sensuality, fertility, nurturing, creativity, beauty, abundance, nature...\nThe Empress embodies creativity. Explore new programming ideas and projects. Perhaps you can work on an artistic or innovative project. Cultivate your creativity by coding unique and original projects.",
             "image_url": "Assets/images/cards/04-theempress.png"
         },
         {   
             "id": "5",
             "nom":"The Emperor",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"stability, structure, protection, authority, control...\nThe Emperor is the symbol of authority. Take charge of your programming development. Establish a solid plan and follow it to achieve your goals. Be the 'project leader' of your code., practicality, focus, discipline",
             "image_url": "Assets/images/cards/05-theemperor.png"
         },
         {   
             "id": "6",
             "nom":"The Hierophant",
-            "description":"tradition, social groups, conventionality, conformity, education, knowledge, beliefs",
+            "description":"tradition, social groups, conventionality, conformity, education, knowledge, beliefs...\nThe Hierophant is the guardian of tradition and wisdom. Dive into classical programming teachings, explore the fundamentals, and develop a deeper understanding. Adhere to established coding standards and best practices.",
             "image_url": "Assets/images/cards/06-thehierophant.png"
         },
         {   
             "id": "7",
             "nom":"The Lovers",
-            "description":"love, unions, partnerships, relationships, choices, romance, balance, unity",
+            "description":"love, unions, partnerships, relationships, choices, romance, balance, Unity...\nThe Lovers suggest choice. You may be faced with the decision to choose between two programming languages for a project. Trust your intuition to make the best decision. Choose the language that suits you best.",
             "image_url": "Assets/images/cards/07-thelovers.png"
         },
         {   
             "id": "8",
             "nom":"The Chariot",
-            "description":"success, ambition, determination, willpower, control, self-discipline, focus",
+            "description":"success, ambition, determination, willpower, control, self-discipline, focus...\nThe Chariot symbolizes victory through perseverance. Keep moving forward in your programming learning. Your determination will lead you to success. In programming, perseverance is key to overcoming bugs and challenges.",
             "image_url": "Assets/images/cards/08-thechariot.png"
         },
         {   
             "id": "9",
             "nom":"Strength",
-            "description":"courage, bravery, confidence, compassion, self-confidence, inner power",
+            "description":"courage, bravery, confidence, compassion, self-confidence, inner power...\nStrength symbolizes self-mastery. In the programming world, patience and perseverance are essential for overcoming technical challenges. Self-control is necessary to solve complex coding problems.",
             "image_url": "Assets/images/cards/09-strength.png"
         },
         {   
             "id": "10",
             "nom":"The Hermit",
-            "description":" self-reflection, introspection, contemplation, withdrawal, solitude, search for self",
+            "description":" self-reflection, introspection, contemplation, withdrawal, solitude, search for self...\nTake time for reflection on your code. The Hermit encourages you to delve into deeper programming subjects through solitude and concentration. Meditating on your code can lead to significant breakthroughs.",
             "image_url": "Assets/images/cards/10-thehermit.png"
         },
         {   
             "id": "11",
             "nom":"The Wheel",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline...\nProgramming is constantly evolving. Stay updated with the latest trends and technologies. Be ready to adapt to the rapid changes in the industry. Stay agile and adaptable in the face of technological advancements.",
             "image_url": "Assets/images/cards/11-thewheeloffortune.png"
         },
         {   
             "id": "12",
             "nom":"The Justice",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline...\n Justice reminds you that programming must be ethical. Ensure that your coding decisions are fair and adhere to industry standards. Uphold ethics and regulations in software development.",
             "image_url": "Assets/images/cards/12-justice.png"
         },
         {   
             "id": "13",
             "nom":"The Hanged Man",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline...\nThe Hanged Man reminds you that sometimes sacrifices are necessary to progress. You might need to sacrifice a less important project to focus on a more significant one. Sometimes, you have to abandon secondary tasks to concentrate on key projects.",
             "image_url": "Assets/images/cards/13-thehangedman.png"
         },
         {   
             "id": "14",
             "nom":"Death",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline...\nDeath symbolizes transformation. It's time to leave behind old programming methods and embrace new approaches. Be prepared to evolve and adopt new technologies.",
             "image_url": "Assets/images/cards/14-death.png"
 
         },
         {   
             "id": "15",
             "nom":"Temperance",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline...\nTemperance invites you to balance your programming skills. Strive for equilibrium between your front-end and back-end skills, for example. Balance your skills to become a versatile developer.",
             "image_url": "Assets/images/cards/15-temperance.png"
 
         },        
         {   
             "id": "16",
             "nom":"The Devil",
-            "description":" stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":" stability, structure, protection, authority, control, practicality, focus, discipline...\nThe Devil reminds you not to be tempted by unethical shortcuts in programming. Stay true to ethical coding practices. Avoid unethical coding practices that could compromise the quality of your work.",
             "image_url": "Assets/images/cards/16-thedevil.png"
 
         },
         {   
             "id": "17",
             "nom":"The Tower",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline...\nExpect sudden upheavals in your programming projects. Be prepared to react quickly to unexpected errors and technical challenges. Be flexible and capable of handling the unforeseen.",
             "image_url": "Assets/images/cards/17-thetower.png"
 
         },
         {   
             "id": "18",
             "nom":"The Star",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline...\nThe Star symbolizes hope in the programming world. Keep the faith in your projects, even in the face of difficulties. Stay optimistic and persevere despite obstacles.",
             "image_url": "Assets/images/cards/18-thestar.png"
 
         },
         {   
             "id": "19",
             "nom":"The Moon",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"stability, structure, protection, authority, control, racticality, focus, discipline...\nExplore the more mysterious aspects of programming. Your intuitions can guide you toward creative solutions. Experiment with new ideas and solutions that may initially seem mysterious.",
             "image_url": "Assets/images/cards/19-themoon.png"
             
         },
         {   
             "id": "20",
             "nom":"The Sun",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"stability, structure, protection, authority, contro...\nThe Sun signifies a period of success and accomplishment. Whether in programming or other aspects of life, you're on the verge of achieving something truly remarkable. Celebrate your victories and share your joy with those around you.",
             "image_url": "Assets/images/cards/20-thesun.png"
         },
         {   
             "id": "21",
             "nom":"Judgement",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline...\nMake an honest evaluation of your programming skills and past projects. It's time to decide the next step in your developer career.",
             "image_url": "Assets/images/cards/21-judgment.png"
         },        
         {
             "id": "22",
             "nom":"The World",
-            "description":"stability, structure, protection, authority, control, practicality, focus, discipline",
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline...\nYou're on the cusp of completing a programming cycle. Celebrate your success and be ready to tackle new challenges in the programming world. You have the world of code at your feet.",
             "image_url": "Assets/images/cards/22-theworld.png"
         }
     ]

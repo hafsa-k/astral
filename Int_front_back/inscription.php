@@ -17,7 +17,7 @@
             <br><br>
             <input type="email" name="login" placeholder="Email :" required><br><br>
             <input type="password"  name="password" placeholder="Mot de passe :" required><br><br>
-            <button type="submit">S'inscrire</button>
+            <button type="submit"><p>S'inscrire</p></button>
           </form>
         </div>   
           

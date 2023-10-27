@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cartes de Tarot</title>
-        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
@@ -22,45 +22,20 @@
             <li class="nav-item">
               <a class="nav-link" href="cards.php">Carte</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="historique.php">Historique</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="inscription.php">Inscription</a>
+              </li>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="connexion.php">Connexion</a>
+            </li>
+
             <?php
             session_start();
-            if(isset($_SESSION['nom'])==true){
-              print('<li class="nav-item">
-              <a class="nav-link" href="historique.php">Historique</a>
-              </li>');
-            }else{
-              print('<li></li>');
-            }
-            ?>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="historique.php">Historique</a>
-            </li> -->
-            <?php
-            // session_start();
-            if(isset($_SESSION['nom'])==true){
-              print('<li></li>');
-            }else{
-              print('<li class="nav-item">
-              <a class="nav-link" href="inscription.php">Inscription</a>
-            </li>');
-            }
-            ?>
-            <?php
-            // session_start();
-            // print($_SESSION['nom']);
-            if(isset($_SESSION['nom'])==true){
-              print('<li></li>');
-            }else{
-              print('<li class="nav-item">
-              <a class="nav-link" href="connexion.php">Connexion</a>
-            </li>');
-            }
-            // <li class="nav-item">
-              //<a class="nav-link" href="connexion.php">Connexion</a>
-           // </li> 
-            ?>
-            <?php
-            // session_start();
             // print($_SESSION['nom']);
             if(isset($_SESSION['nom'])==true){
               print('<li class="nav-item">
@@ -68,7 +43,7 @@
             </li>');
             }
         ?>
-        
+           
           </ul>
         </div>
       </nav>

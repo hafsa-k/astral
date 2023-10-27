@@ -18,7 +18,7 @@
    <form action="./loginTraitement.php" method="POST" >
      <input type="email" name="login" placeholder="Email :" required><br><br>
      <input type="password" name="password" placeholder="Mot de passe :" required><br><br>
-     <button type="submit">Se connecter</button>
+     <button type="submit"><p>Se connecter</p></button>
    </form>
    <?php
     // on peut obtenir les paramétres (cle->val) de l'URL en utilisant $_GET

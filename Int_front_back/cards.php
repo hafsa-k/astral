@@ -31,7 +31,8 @@
 
                 echo '<div class="col-3">'; // Chaque carte dans une colonne de largeur 3 (total de 4 colonnes par ligne)
                 echo '<li>';
-                echo '<img src="' . $card['image_url'] . '" alt="' . $card['nom'] . '"><br><br>';
+
+                echo '<img class="tarot" src="' . $card['image_url'] . '" alt="' . $card['nom'] . '"><br><br>';
                 echo 'Nom: ' . $card['nom'] . '<br>';
                 echo 'Description: ' . $card['description'] . '<br> <br> <br>';
                 echo '</li>';

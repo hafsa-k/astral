@@ -41,6 +41,7 @@ h2{
     color: antiquewhite!important;
     text-align: center;
     margin-bottom: 3rem;
+    
 } 
 
 h3{
@@ -128,9 +129,9 @@ input{
   }
  
   .form-container button {
-    width: 40%;
+    width: 60%;
     padding: 10px;
-    background-color: #584229;
+    background-color: #12110f;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -138,22 +139,23 @@ input{
     margin-left: 95px;
     display: flex;
     flex-direction: row;
+    text-align: center;
   }
  
   .form-container button:hover {
-    background-color: #686664;
+    background-color: #8d6d3a;
   }
  
   /* Partie jeu */
  
   #jeu{
-    background-color: rgb(89, 71,121);
+    background-color: #686664;
     border-radius: 5px;
   }
   #inscription{
     width : 500px;
     height : 350px;
-    background-color: #686664;
+    background-color:  rgb(102, 91, 124);
     border-radius: 5px;
     margin: auto;
     margin-left: -30%;
@@ -161,7 +163,7 @@ input{
   #connexion{
     width : 500px;
     height : 350px;
-    background-color: #686664;
+    background-color: rgb(102, 91, 124);
     border-radius: 5px;
     margin: auto;
     margin-left: -30%;
@@ -169,14 +171,14 @@ input{
   .jeu{
     width : 980px;
     height: 600px;
-    background-color: rgb(29, 23, 23);
+    background-color: rgb(88, 80, 102);
     border-radius: 5px;
     margin-top: 50px;
     margin-left: 10%;
     padding: 10px;
   }
   #jeux{
-    background-color:rgb(89, 71,121)!important;
+    background-color: rgb(102, 91, 124);
   }
  
   .login {
@@ -184,7 +186,7 @@ input{
     margin: 100px auto;
     width: 370px;
     /* height: 315px; */
-   background: rgba(255,255,255,0.05);
+    background:  rgb(102, 91, 124); 
       backdrop-filter: blur(10px);
       /* border-top: 1px solid rgba(255,255,255,0.2);
       border-left: 1px solid rgba(255,255,255,0.2); */
@@ -228,4 +230,13 @@ input{
 .table{
   color:antiquewhite;
   border-color : antiquewhite;
+}
+.tarot{
+  transition: width 2s linear 1s;
+  border: 3px solid rgb(9, 1, 14);  
+ 
+}
+
+.tarot:hover {  
+ box-shadow: 3px 3px 3px 5px gold;
 }

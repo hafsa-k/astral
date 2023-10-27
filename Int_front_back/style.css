@@ -147,7 +147,7 @@ input{
   /* Partie jeu */
  
   #jeu{
-    background-color: #686664;
+    background-color: rgb(89, 71,121);
     border-radius: 5px;
   }
   #inscription{
@@ -176,7 +176,7 @@ input{
     padding: 10px;
   }
   #jeux{
-    background-color: grey;
+    background-color:rgb(89, 71,121)!important;
   }
  
   .login {

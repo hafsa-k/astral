@@ -1,0 +1,116 @@
+{
+    "datas":[
+        {   
+            "id": "1",
+            "nom":"The Fool",
+            "description":"beginnings, freedom, innocence, originality, adventure, idealism, spontaneity"
+        },
+        {   
+            "id": "2",
+            "nom":"The Magician",
+            "description":"willpower, desire, being resourceful,, skill, ability, concentration, manifestation"
+
+        },
+        {   
+            "id": "3",
+            "nom":"The High Priestess",
+            "description":"unconscious, intuition, mystery, spirituality, higher power, inner voice"
+
+        },
+        {   
+            "id": "4",
+            "nom":"The Empress",
+            "description":"divine feminine, sensuality, fertility, nurturing, creativity, beauty, abundance, nature"
+        },
+        {   
+            "id": "5",
+            "nom":"The Emperor",
+            "description":"stability, structure, protection, authority, control, practicality, focus, discipline"
+        },
+        {   
+            "id": "6",
+            "nom":"The Hierophant",
+            "description":"tradition, social groups, conventionality, conformity, education, knowledge, beliefs"
+        },
+        {   
+            "id": "7",
+            "nom":"The Lovers",
+            "description":"love, unions, partnerships, relationships, choices, romance, balance, unity"
+        },
+        {   
+            "id": "8",
+            "nom":"The Chariot",
+            "description":"success, ambition, determination, willpower, control, self-discipline, focus"
+        },
+        {   
+            "id": "9",
+            "nom":"Strength",
+            "description":"courage, bravery, confidence, compassion, self-confidence, inner power"
+        },
+        {   
+            "id": "10",
+            "nom":"The Hermit",
+            "description":" self-reflection, introspection, contemplation, withdrawal, solitude, search for self"
+        },
+        {   
+            "id": "11",
+            "nom":"The Wheel",
+            "description":"bo"
+        },
+        {   
+            "id": "12",
+            "nom":"The Justice",
+            "description":"bo"
+        },
+        {   
+            "id": "13",
+            "nom":"The Hanged Man",
+            "description":"bo"
+        },
+        {   
+            "id": "14",
+            "nom":"Death",
+            "description":"bo"
+        },
+        {   
+            "id": "15",
+            "nom":"Temperance",
+            "description":"bo"
+        },        
+        {   
+            "id": "16",
+            "nom":"The Devil",
+            "description":" bo"
+        },
+        {   
+            "id": "17",
+            "nom":"The Tower",
+            "description":"bo"
+        },
+        {   
+            "id": "18",
+            "nom":"The Star",
+            "description":"bo"
+        },
+        {   
+            "id": "19",
+            "nom":"The Moon",
+            "description":"bo"
+        },
+        {   
+            "id": "20",
+            "nom":"The Sun",
+            "description":"bo"
+        },
+        {   
+            "id": "21",
+            "nom":"Judgement",
+            "description":"bo"
+        },        
+        {
+            "id": "22",
+            "nom":"The World",
+            "description":"bo"
+        }
+    ]
+}

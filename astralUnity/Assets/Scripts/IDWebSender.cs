@@ -6,7 +6,7 @@ using UnityEngine.Networking;
 public class IDWebSender : MonoBehaviour
 {
     
-    public string webServiceURL = "https://localhost/astral/Session/accueil.php?id_carte=";
+    public string webServiceURL = "https://localhost/astral/Session/index.php?id_carte=";
 
     // if (_isClicked){
     private int gameID = 123; //BUGG :: Remplacez par l'ID de jeu que vous souhaitez envoyer
